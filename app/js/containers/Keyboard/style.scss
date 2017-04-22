@@ -1,0 +1,21 @@
+@import '~styles/attributes';
+
+.container {
+  width: 400px;
+  height: 400px;
+  margin: 40px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.keyTouch {
+  width: 33%;
+  height: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
